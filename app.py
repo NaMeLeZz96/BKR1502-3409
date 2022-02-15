@@ -33,7 +33,6 @@ def index():
         return(render_template("index.html", result = s))
     else:
         return(render_template("index.html", result = "2"))
-#pred = model.predict([float(NPTAR), float(TLTAR), float(WCTAR)])
 
 
 # In[ ]:
